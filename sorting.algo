@@ -1,0 +1,14 @@
+ALGORITHM sorting
+VAR
+    arr: ARRAY_OF INTEGER[];
+    i:INTEGER
+    value:INTEGER
+    tmp:INTEGER
+BEGIN
+arr.push(value)
+FOR i FROM arr.length-1 TO i>0  AND arr[i]<arr[i-1] STEP 1  DO
+tmp:=arr[i]
+arr[i]=arr[i-1]
+arr[i-1]=tmp
+END_FOR
+END
